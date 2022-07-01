@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+li{
+	list-style-type: none;
+	list-style-position: outside;
+}
+img{
+    display: block;
+	max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 0.8em;
+}
+body h2{
+	font-size: 18px;
+	font-weight: normal;
+}
+form dl dt{
+    width: 105px;
+    padding:10px 0;
+    float:left;
+    clear:both;
+}
+  
+form dl dd{
+    padding:10px 0;
+}
+
+#post, #main{
+    padding-left: 20px;
+}
+
+#post{
+    
+    border-bottom: #dcdcdc solid 2px;
+}
+
+#post .inputFlex{
+    display: flex;
+}
+
+#search dl{
+    display: flex;
+}
+
+.article{
+    margin-top: 20px;
+}
+
+.re{
+    margin-left: 3em;
+}
